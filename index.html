@@ -1,0 +1,140 @@
+<!-- 
+THIS TEMPLATE IS FREE TO USE, SHARED UNDER THE Creative Commons Attribution-ShareAlike 4.0 International License
+FOR MORE INFORMATION ON THIS LICENSE, INCLUDING WHAT YOU CAN AND CANT DO, AND WHAT IS REQUIRED TO USE THIS TEMPLATE,
+PLEASE VISIT: http://creativecommons.org/licenses/by-sa/4.0/legalcode
+OR FOR A HUMAN READABLE VERSION: http://creativecommons.org/licenses/by-sa/4.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML/CSS Template 01</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script>
+    $(function () {
+      $('nav li ul').hide().removeClass('fallback');
+      $('nav li').hover(function () {
+	$('ul', this).stop().slideToggle(200);
+      });
+    });
+    </script>
+  </head>
+  <body>
+    <img src="./img/logo.png" id="logo">
+
+<input type="text" name="Search" id="text_search" value="Search...">
+<!-- Start Menu - Source: http://toddmotto.com/html5-and-jquery-super-simple-drop-down-nav/ -->
+<nav>
+  <ul>
+    <li>
+      <a href="#">Menu 1</a>
+      <ul class="fallback">
+        <li><a href="#">Sub-Link 1</a></li>
+        <li><a href="#">Sub-Link 2</a></li>
+        <li><a href="#">Sub-Link 3</a></li>
+        <li><a href="#">Sub-Link 4</a></li>
+        <li><a href="#">Sub-Link 5</a></li>
+        <li><a href="#">Sub-Link 6</a></li>
+        <li><a href="#">Sub-Link 7</a></li>
+        <li><a href="#">Sub-Link 8</a></li>
+        <li><a href="#">Sub-Link 9</a></li>
+        <li><a href="#">Sub-Link 10</a></li>
+        <li><a href="#">Sub-Link 11</a></li>
+        <li><a href="#">Sub-Link 12</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Menu 2</a>
+      <ul class="fallback">
+        <li><a href="#">Sub-Link 1</a></li>
+        <li><a href="#">Sub-Link 2</a></li>
+        <li><a href="#">Sub-Link 3</a></li>
+        <li><a href="#">Sub-Link 4</a></li>
+        <li><a href="#">Sub-Link 5</a></li>
+        <li><a href="#">Sub-Link 6</a></li>
+        <li><a href="#">Sub-Link 7</a></li>
+        <li><a href="#">Sub-Link 8</a></li>
+        <li><a href="#">Sub-Link 9</a></li>
+        <li><a href="#">Sub-Link 10</a></li>
+        <li><a href="#">Sub-Link 11</a></li>
+        <li><a href="#">Sub-Link 12</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Menu 3</a>
+      <ul class="fallback">
+        <li><a href="#">Sub-Link 1</a></li>
+        <li><a href="#">Sub-Link 2</a></li>
+        <li><a href="#">Sub-Link 3</a></li>
+        <li><a href="#">Sub-Link 4</a></li>
+        <li><a href="#">Sub-Link 5</a></li>
+        <li><a href="#">Sub-Link 6</a></li>
+        <li><a href="#">Sub-Link 7</a></li>
+        <li><a href="#">Sub-Link 8</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Menu 4</a>
+      <ul class="fallback">
+        <li><a href="#">Sub-Link 1</a></li>
+        <li><a href="#">Sub-Link 2</a></li>
+        <li><a href="#">Sub-Link 3</a></li>
+        <li><a href="#">Sub-Link 4</a></li>
+        <li><a href="#">Sub-Link 5</a></li>
+        <li><a href="#">Sub-Link 6</a></li>
+        <li><a href="#">Sub-Link 7</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<!-- End Menu -->
+<!-- Carousel -->
+<!-- http://cssdeck.com/labs/simple-css-image-carousel/ -->
+<div id="carousel-bg">
+<div id="slide">
+	<div class="mask">
+    	<div class="images">
+        	<div class="img">
+            	<img src="http://lorempixel.com/540/280/people/1" width="540" height="280">
+            </div>
+            <div class="img">
+            	<img src="http://lorempixel.com/540/280/people/2" width="540" height="280">
+            </div>
+            <div class="img">
+                <img src="http://lorempixel.com/540/280/people/3" width="540" height="280">
+            </div>
+            <div class="img">
+                <img src="http://lorempixel.com/540/280/people/4" width="540" height="280">
+            </div>
+            <div class="img">
+                <img src="http://lorempixel.com/540/280/people/5" width="540" height="280">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- End Carousel -->
+<div class="container">
+   <div class="column-center">
+   <img src="http://lorempixel.com/177/133/nature/1" id="column-center_img"><br>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac massa sit amet lacus mollis egestas.
+   </div>
+   <div class="column-left">
+   <img src="http://lorempixel.com/177/133/nature/2" id="column-left_img"><br>
+   Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+   </div>
+   <div class="column-right">
+   <img src="http://lorempixel.com/177/133/nature/3" id="column-right_img"><br>
+   Quisque ultrices sollicitudin tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+   </div>
+</div>
+<div id="footer_space"><div>
+<div id="footer_text">&copy; http://discobiscuitsforjordan.com - marc.c.hoover@gmail.com</div>
+<div id="license">
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Template01</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://discobiscuitsforjordan.com/" property="cc:attributionName" rel="cc:attributionURL">DiscoBiscuitsForJordan.com</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://discobiscuitsforjordan.com/free/template01/index.html" rel="dct:source">http://discobiscuitsforjordan.com/free/template01/index.html</a>.
+</div>
+  </body>
+</html>
